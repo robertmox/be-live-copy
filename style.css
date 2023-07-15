@@ -1,0 +1,881 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    height: 100vh;
+    background-size: 100% 100%;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+#headcontainer {
+    width: 100%;
+    background: url(https://belivefitness.ro/images/header-bg.png) top center no-repeat #161616;
+    height: 857px;
+}
+
+header {
+    width: 1196px;
+    max-width: 0 auto;
+    padding: 20px 0px 10px 0px;
+    color: #666;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.group {
+    zoom: 1;
+}
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.group::before {
+    content: "";
+    display: table;
+}
+
+.group::after {
+    clear: both;
+}
+
+.group::after {
+    content: "";
+    display: table;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+.span_4 {
+    width: 32.26%;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.logo {
+    text-align: left;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+a {
+    transition: all 0.3s linear 0s;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.span_8 {
+    width: 66.13%;
+}
+
+.header_menu {
+    width: 100%;
+}
+
+.header_menu_in {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #nav-main ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  #nav-main li {
+    margin: 0 10px;
+  }
+  
+  #nav-main a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  }
+
+  nav#nav-main {
+    /* background-color: #c80032; */
+    padding: 18px 0;
+}
+
+.span_12 {
+    width: 100%;
+}
+
+.headerbanner {
+    position: relative;
+    margin: 220px 0 0 0;
+    padding-top: 50px;
+}
+
+.headerbanner .bannertext {
+    font-size: 25px;
+    font-family: "Conv_Gotham-Light";
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+}
+
+.headerbanner .bannertext span.largetext {
+    font-size: 115px;
+    display: block;
+    font-family: "Conv_Gotham-Bold";
+}
+
+.headerbanner .bannertext span.largetext .clorred {
+    color: #dd0505;
+}
+
+.headerbanner .bannertext + .banner_arrowicon {
+    margin: 55px 0 0;
+}
+
+#maincontentcontainer {
+    width: 100%;
+    background: #fff;
+}
+
+section.feature-sec .sec-content {
+    margin: -175px auto 0px;
+    text-align: center;
+}
+
+section .sec-content {
+    width: 1196px;
+    max-width: 92.3em;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    color: #666;
+    /* background: #fff; */
+}
+
+.features-listbox .box1 {
+    height: 100px;
+    width: 33.33%;
+    height: 385px;
+    background: #fff;
+    display: block;
+    float: left;
+    border: 1px solid #e4e4e4;
+    padding: 25px 20px;
+    cursor: pointer;
+}
+
+.features-listbox {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.features-listbox .box1 .fl-img {
+    height: 110px;
+    position: relative;
+}
+
+.features-listbox .box1 .fl-img img {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.features-listbox .box1 .f1-t1 {
+    font-size: 28px;
+    color: #292828;
+    line-height: 1;
+    font-family: "Conv_Gotham-Bold";
+    text-transform: uppercase;
+}
+
+.features-listbox .box1 .bigtext {
+    font-size: 36px;
+    color: #dd0505;
+    display: block;
+}
+
+.features-listbox .box1 .f1-desc {
+    font-size: 14px;
+    color: #787878;
+    font-family: "Conv_Gotham-Light";
+    font-weight: normal;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.features-listbox .box1 .f1-desc::before {
+    height: 3px;
+    background: #292828;
+    display: table;
+    width: 60px;
+    content: "";
+    margin: 0 auto 17px;
+}
+
+.features-listbox:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+section {
+    padding: 1px 0;
+}
+
+
+section.about-sec {
+    background: #fff;
+    padding: 80px 0;
+}
+
+section.sec-content {
+    width: 1196px;
+    max-width: 92.3em;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    color: #666;
+    /* background: #fff; */
+}
+
+.group {
+    zoom: 1;
+}
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.group::before {
+    content: "";
+    display: table;
+}
+
+.group::after {
+    clear: both;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+.span_6 {
+    width: 49.2%;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.margintop100 {
+    margin-top: 100px;
+}
+
+.about-content {
+    text-align: left;
+}
+
+.sec-hl {
+    margin-bottom: 40px;
+}
+
+span.no {
+    font-family: "Conv_AGENCY-B";
+    font-size: 99px;
+    color: #dd0505;
+    float: left;
+    text-align: left;
+    line-height: 0.85;
+}
+
+span.ni {
+    font-family: "Conv_Gotham-Light";
+    font-size: 32px;
+    color: #dd0505;
+    text-transform: uppercase;
+    float: left;
+    text-align: left;
+    line-height: 0.85;
+}
+
+span.no + span.ni {
+    margin: 3px 0 0 15px;
+}
+
+span.big {
+    font-family: "Conv_Gotham-Bold";
+    font-size: 64px;
+    color: #292828;
+    display: block;
+}
+
+.about-content p.desc-bold {
+    color: #787878;
+    font-size: 20px;
+    font-family: "Conv_Gotham-Bold";
+    font-weight: bold;
+}
+
+.about-content p {
+    font-size: 14px;
+    font-family: "Conv_Gotham-Light";
+    color: #787878;
+    line-height: 20px;
+    margin: 0;
+}
+
+.sec-h1 {
+    margin-bottom: 40px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.sec-h1::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.about-content p + p {
+    margin: 35px 0 0 0;
+}
+
+.gallery-sec {
+    background: url(https://belivefitness.ro/images/gallery-bg.png) repeat-x top center #383838;
+    padding: 80px 0;
+    height: auto;
+    background-repeat: repeat-y;
+}
+
+.span_12 {
+    width: 100%;
+}
+
+div.tab-frame input {
+    display: none;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+div.tab-frame input:checked + label {
+    background: #dd0505;
+    color: white;
+    cursor: pointer;
+}
+
+div.tab-frame label {
+    display: block;
+    float: left;
+    padding: 5px 6px;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Conv_Gotham-Bold";
+}
+
+ .sec-h1 span.no + span {
+    margin: 3px 0 0 15px;
+}
+
+.gallery-sec .sec-h1 span span.big {
+    color: #fff;
+}
+
+div.tab-frame div.tab {
+    display: block;
+    padding: 55px 0px;
+    clear: left;
+}
+
+div.tab-content-general {
+    display: none;
+    width: auto;
+    float: left;
+}
+
+.tab-content-general img {
+    margin: 5px;
+    width: auto;
+    height: 250px;
+}
+
+div.load-more {
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.load-more a {
+    padding: 10px 40px;
+    text-align: center;
+    background-color: #dd0505;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: "Conv_Gotham-Bold";
+}
+
+.methods {
+    width: 100%;
+    background: #1d1d1d;
+    padding: 70px 50px;
+    margin-top: 70px;
+}
+
+.methods .step {
+    float: left;
+}
+
+.methods .sec-h1 span.no {
+    color: #fff;
+    font-size: 70px;
+    font-family: "Conv_AGENCY-B";
+}
+
+.methods .sec-h1 span.ni {
+    color: #999999;
+    font-family: "Conv_Gotham-Bold";
+    font-size: 31px;
+}
+
+.methods .sec-h1 span.ni span.big {
+    font-size: 31px;
+    color: #dd0505;
+}
+
+.methods::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.methods .sec-h1 {
+    margin-bottom: 0;
+}
+
+.methods .step + .step {
+    margin-left: 35px;
+}
+
+section.package-sec .sec-h1 {
+    width: auto;
+    display: inline-block;
+}
+
+section.package-sec {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.package-top {
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.package {
+    width: 328px;
+    border: 1px solid #d4d4d4;
+    display: inline-block;
+}
+
+.package .t1 {
+    font-size: 29px;
+    color: #fff;
+    background: #1d1d1d;
+    text-transform: uppercase;
+    font-family: "Conv_Gotham-Bold";
+    padding: 35px 0;
+    text-align: center;
+    line-height: 1;
+}
+
+.package .t1 span {
+    color: #dd0505;
+    display: block;
+}
+
+.package .luni-text {
+    text-align: center;
+    font-size: 23px;
+    color: #1d1d1d;
+    font-family: "Conv_Gotham-Bold";
+    padding: 15px 10px;
+}
+
+.package .luni-text span {
+    display: block;
+    font-size: 38px;
+    color: #999797;
+    font-family: "Conv_Gotham-Ultra";
+}
+
+.package .luni-text + .luni-text {
+    border-top: 1px solid #d4d4d4;
+}
+
+.package .luni-text.light {
+    background: #f7f7f7;
+}
+
+.time-list {
+    background: #1d1d1d;
+    padding: 25px 15px;
+    text-align: left;
+}
+
+.time-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.time-list ul li {
+    font-size: 12px;
+    color: #fff;
+    font-family: "Conv_Gotham-Light";
+    position: relative;
+    padding-left: 0;
+}
+
+.package-top .package:nth-child(2) {
+    margin: 0 15px;
+    position: relative;
+    top: 17px;
+}
+
+.package-top .package:nth-child(2) .t1 {
+    font-size: 32px;
+}
+
+.package-top .package:nth-child(2) .luni-text {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.package-bot {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.package-bot:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.pf-box {
+    border: 2px solid #dfdcdc;
+    /* width: auto; */
+    width: 24%;
+    height: 230px;
+    /* padding: 30px 35px; */
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.pf-box h5 {
+    font-size: 26px;
+    color: #dd0505;
+    font-family: "Conv_Gotham-Light";
+    line-height: 1;
+    margin: 0 0 25px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.pf-box .topupper-text {
+    font-size: 38px;
+    color: #999797;
+    font-family: "Conv_Gotham-Ultra";
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    background: #fff;
+    text-align: right;
+    padding: 2px 10px;
+    -webkit-transform: translateY(-60%);
+    -moz-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    -o-transform: translateY(-60%);
+    transform: translateY(-60%);
+}
+
+.pf-box h5 span.block {
+    display: block;
+}
+
+.pf-box h5 span {
+    color: #1d1d1d;
+    font-family: "Conv_Gotham-Bold";
+}
+
+.pf-box .desc {
+    font-size: 17px;
+    font-family: "Conv_Gotham-Light";
+    color: #1d1d1d;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.pf-box .desc strong {
+    font-family: "Conv_Gotham-Bold";
+}
+
+.pf-box .upper {
+    text-transform: uppercase;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.pf-box .desc .price {
+    font-size: 28px;
+    color: #999797;
+    font-family: "Conv_Gotham-Ultra";
+}
+
+.package-contact {
+    width: 85.5%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.package-contact .left {
+    width: 60%;
+    float: left;
+}
+
+.package-contact .right {
+    width: 40%;
+    float: right;
+}
+
+.package-contact .co-desc {
+    font-size: 17px;
+    color: #9d9d9d;
+    font-family: "Conv_Gotham-Light";
+    float: left;
+}
+
+.package-contact .co-no {
+    font-size: 38px;
+    color: #9d9d9d;
+    font-family: "Conv_Gotham-Ultra";
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.contact-sec .content-t1 {
+    background: #1d1d1d;
+    padding: 55px 65px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-sec .content-tl .sec-hl {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.contact-sec .address {
+    font-size: 17px;
+    color: #fff;
+    font-family: "Conv_Gotham-Light";
+    float: right;
+    position: relative;
+    top: 13px;
+}
+
+.container-waze-button {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contact-sec .sec-h1 span span.big {
+    color :#fff;
+}
+
+.contact-sec .content-t1 .sec-h1 {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+iframe {
+    height: 400px;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+}
+
+.contact-form {
+    background: url(https://belivefitness.ro/images/footer-form-bg.png) no-repeat top center;
+    background-size: cover;
+    height: 610px;
+    position: relative;
+}
+
+.contact-form::before {
+    width: 116px;
+    height: 116px;
+    position: absolute;
+    left: 50%;
+    top: -58px;
+    content: url(https://belivefitness.ro/images/mailicon-big.png);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.contact-form .sec-content {
+    width: 1196px;
+    max-width: 92.3em;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    color: #666;
+}
+
+.form-box {
+    height: 250px;
+    /* background: rgba(255,255,255,0.2); */
+    width: 903px;
+    max-width: 100%;
+    margin: 100px auto;
+}
+
+.form-box form {
+    font-family: "Conv_Gotham-Light";
+    font-size: 15px;
+    color: #787878;
+    text-align: left;
+}
+
+.successDiv {
+    text-align: center;
+    font-family: "Conv_Gotham-Bold";
+}
+
+.input-field, .textarea-field {
+    position: relative;
+}
+
+.form-box form input[type="text"] {
+    font-family: "Conv_Gotham-Light";
+    font-size: 15px;
+    color: #787878;
+    text-align: left;
+    height: 68px;
+    width: 100%;
+    padding: 15px 18px;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.form-box form textarea {
+    font-family: "Conv_Gotham-Light";
+    font-size: 15px;
+    color: #787878;
+    text-align: left;
+    padding: 21px 18px;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2) inset;
+    width: 100%;
+    height: 170px;
+}
+
+.submitbtn {
+    width: 375px;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.form-box form input[type="submit"] {
+    color: #fff;
+    font-size: 17px;
+    height: 64px;
+    background: #dd0505;
+    border-radius: 10px;
+    padding: 15px 18px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-family: "Conv_Gotham-Bold";
+}
+
+.copywright {
+    color: #fff;
+    text-align:center;
+}
